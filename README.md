@@ -37,13 +37,12 @@ Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
 ```
-from http.server import HTTPServer, BaseHTTPRequestHandler
-content = 
 <html>
 <head>
-<h1>DHARSINI R (26005256)</h1>
+<title>Device information</title>
 </head>
 <body>
+    <h1>DHARSINI R (26005256)</h1>
 <table border="1" cellpadding="5" cellspacing="1" font style="Arial Black">
 <tr>
 <td>Device name</td>

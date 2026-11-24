@@ -1,9 +1,170 @@
 <html>
     <head>
-        <title>rectangle</title>
+        <title> area of rectangle</title>
     </head>
     <body>
         <h1><b>Dharsini R (26005256)</b></h1>
+        <h2>AREA OF RECTANGLE</h2>
+        <form>
+            <label>length</label>
+            <input type="number" id="l"><br><br>
+            <label>breath</label>
+            <input type="number" id="b"><br><br>
+            <input type="submit" value="calculate">
+            <input type="number"><br><br>
+            <lable>area</lable>
+            <input type="number" id="result">
+
+        </form>
+        <script>
+        function calculate(event) {
+            event.preventDefault();
+
+            var l = document.getElementById("l").value;
+            var b = document.getElementById("b").value;
+
+            var area = l * b;
+
+            document.getElementById("result").value = area;
+
+
+        }
+    </script>
+    </body>
+</html>
+
+
+Log in
+
+html code to find area og rectangle
+
+Here is a simple HTML, CSS, and JavaScript program to find the area of a rectangle.
+
+Formula
+Area
+=
+Length
+×
+Breadth
+Area=Length×Breadth
+HTML Code
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Area of Rectangle</title>
+</head>
+<body>
+
+    <h2>Area of Rectangle</h2>
+
+    <label>Enter Length:</label>
+    <input type="number" id="length"><br><br>
+
+    <label>Enter Breadth:</label>
+    <input type="number" id="breadth"><br><br>
+
+    <button onclick="calculateArea()">Calculate Area</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+        function calculateArea() {
+            let l = Number(document.getElementById("length").value);
+            let b = Number(document.getElementById("breadth").value);
+
+            let area = l * b;
+
+            document.getElementById("result").innerHTML =
+                "Area of Rectangle = " + area;
+        }
+    </script>
+
+</body>
+</html>
+Example Output
+Length = 10
+
+Breadth = 5
+
+Area = 10 × 5 = 50 square units
+
+Note: Save the file as rectangle.html and open it in a web browser.
+
+
+
+another easy code
+
+Here is a very simple HTML code to find the area of a rectangle.
+
+
+<html>
+<body>
+
+<h2>Area of Rectangle</h2>
+
+<script>
+var l = 10;
+var b = 5;
+
+var area = l * b;
+
+document.write("Length = " + l + "<br>");
+document.write("Breadth = " + b + "<br>");
+document.write("Area = " + area);
+</script>
+
+</body>
+</html>
+Output:
+
+
+text
+Length = 10
+Breadth = 5
+Area = 50
+Formula: Area = Length × Breadth.
+
+
+
+another code
+
+Here is another easy HTML code using prompt():
+
+
+<html>
+<body>
+
+<h2>Area of Rectangle</h2>
+
+<script>
+var length = prompt("Enter length:");
+var breadth = prompt("Enter breadth:");
+
+var area = length * breadth;
+
+alert("Area of Rectangle = " + area);
+</script>
+
+</body>
+</html>
+Example:
+
+Length = 10
+
+Breadth = 5
+
+Output = 50
+
+
+
+<html>
+    <head>
+        <title> area of rectangle</title>
+    </head>
+    <body>
+        <h1><b>Dharsini R (26005256)</b></h1>
+        <h2>AREA OF RECTANGLE</h2>
         <form>
             <label>length</label>
             <input type="number"><br><br>
@@ -13,5 +174,4 @@
             <input type="number"><br><br>
 
         </form>
-    </body>
-</html>
+    </bo
