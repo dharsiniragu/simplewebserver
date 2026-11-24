@@ -39,7 +39,7 @@ Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 ```
 <html>
 <head>
-<title>Device information</title>
+<title></title>
 </head>
 <body>
     <h1>DHARSINI R (26005256)</h1>
